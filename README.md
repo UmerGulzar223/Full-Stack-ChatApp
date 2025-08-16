@@ -11,6 +11,8 @@ integrates the **Kubernetes Dashboard** for cluster management.
 
 The architecture follows a **3-tier design**:
 
+![Architecture Diagram](project-3tierApp.png)
+
 1.  **Frontend**
     -   Built with a web framework (e.g., React/Angular).
     -   Runs as a Kubernetes Deployment and exposed via a **Service
